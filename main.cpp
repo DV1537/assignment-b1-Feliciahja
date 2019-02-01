@@ -57,16 +57,8 @@ int main(int argc, const char * argv[])
     Figure figure(shapes, numShapes);
 
     
-    Line line = figure.getBoundingBox();
+    std::cout << figure.getBoundingBox();
 
-    std::cout << line;
-
-
-/* 
-    Shape &combinedShapes = *shapes[0] + *shapes[1];
-
-    std::cout << combinedShapes.area();
-*/
 
     std::getchar();
 
